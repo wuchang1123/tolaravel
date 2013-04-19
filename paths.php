@@ -21,6 +21,8 @@
 |
 */
 
+define('YII_SAE', defined('SAE_TMP_PATH'));
+
 $environments = array(
 
 	'local' => array('http://localhost*', '*.dev'),
